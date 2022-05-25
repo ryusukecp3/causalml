@@ -18,4 +18,4 @@ jupyter lab
 
 コンテナのstatusがupであるのなら以下のコードをrunする。
 ```
-docker exec -it mycausakmk bash
+docker exec -it mycausalml bash
