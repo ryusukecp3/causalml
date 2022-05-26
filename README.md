@@ -19,3 +19,14 @@ jupyter lab
 コンテナのstatusがupであるのなら以下のコードをrunする。
 ```
 docker exec -it mycausalml bash
+```
+
+mac では上記の方法でできなかった。
+以下の方法でできた。
+
+```
+$ git clone https://github.com/uber/causalml.git
+$ cd causalml
+$ pip install -r requirements.txt
+$ pip install causalml
+```
